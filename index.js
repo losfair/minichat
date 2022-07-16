@@ -1,10 +1,3 @@
-# minichat
-
-Distributed chat demo on Blueboat in 15 lines of JavaScript,
-
-## The code
-
-```js
 Router.get("/", () => new Response(`
 <script>const roomId = new URL(location.href).searchParams.get("roomId") || "default";
 new EventSource(\`/_blueboat/events?ns=chatroom&topic=\${encodeURIComponent(roomId)}\`)
@@ -20,4 +13,3 @@ Router.post("/broadcast", async req => {
 });
 
 App.pubsub.chatroom.authorizeClient(() => true);
-```

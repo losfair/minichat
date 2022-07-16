@@ -1,0 +1,4 @@
+artifact = "index.js"
+pubsub = [
+  "chatroom"
+]
