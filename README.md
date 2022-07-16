@@ -1,6 +1,8 @@
 # minichat
 
-Distributed chat demo on Blueboat in 15 lines of JavaScript,
+Distributed real-time chat demo on Blueboat in 15 lines of JavaScript,
+
+[Live Demo](https://chat.blueboat.app)
 
 ## The code
 
